@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/*Result styling*/
+.result{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.result button{
+  cursor:pointer;
+}
+
+.result button.copied{
+  background: #fff;
+  color: red;
+}
+
+
+
