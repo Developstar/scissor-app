@@ -18,6 +18,7 @@ import { useState } from "react"
             onChange={e=>setValue(e.target.value)}
             />
             <button onClick={handleClick}>Shorten</button>
+            
         </div>
     </div>
   )
