@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import './App.css';
 import LinkResult from './LinkResult';
-import InputShortner from './inputShortner';
+import InputShort from './InputShort';
 function App() {
   const [inputValue, setInputValue] = useState("")
 
   return (
     <div>
-      <InputShortner setInputValue={setInputValue}/>
+      <InputShort setInputValue={setInputValue}/>
       <LinkResult inputValue={inputValue}/>
     </div>
   )

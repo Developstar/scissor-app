@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const InputShortner = ({ setInputValue }) => {
+const InputShort = ({ setInputValue }) => {
   const [value, setValue] = useState("");
 
   
@@ -26,4 +26,4 @@ const InputShortner = ({ setInputValue }) => {
   );
 };
 
-export default InputShortner;
+export default InputShort;
